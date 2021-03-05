@@ -1,0 +1,70 @@
+.App {
+  background-color: #282c34;
+  height: 100vh;
+  overflow-x:hidden;
+  perspective: 2px;
+  transition: 250ms;
+}
+
+.nav-header{
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#myNavBar{
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+}
+/*
+h1{
+  position: absolute;
+  transform: translateZ(-1px) scale(2);
+}
+*/
+
+.scroll-divs{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.parallax::after {
+  content: "";
+  position: absolute;
+  top: 0;right: 0;bottom: 0;left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.static{
+  background-size: cover;
+}
+.rooms{
+  background-image: url("rooms.jpg");
+}
+.cafe{
+  background-image: url("cafe.JPG");
+}
+
+.nav-header::after {
+  background-image: url("headerblurred.jpg");
+}

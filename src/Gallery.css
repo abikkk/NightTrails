@@ -1,0 +1,9 @@
+.Gallery{
+    margin: 1%;
+    padding: 2%;
+    background-color: #363b44;
+    border-radius: 1.5%;
+    font-size: 4vh;
+    color: white;
+    height: 100vh;
+}

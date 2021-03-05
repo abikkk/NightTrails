@@ -1,0 +1,23 @@
+.NavBar {
+    padding:1%;
+    text-align:center;
+    min-height: 5vh;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    padding-left:5%;
+    padding-right: 5%;
+    transition: 350ms;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: normal;
+    border-radius: 3%;
+    border-bottom-style: outset;
+    padding-left: 6%;
+    padding-right: 6%;
+}

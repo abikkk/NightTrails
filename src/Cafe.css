@@ -1,0 +1,19 @@
+.App-Cafe{
+    margin: 1%;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5%;
+    min-height: 25vh;
+    font-size: 4vh;
+    color: white;
+    height: 100vh;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 50%;
+}
