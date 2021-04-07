@@ -30,12 +30,6 @@
   color: white;
   min-height: 100vh;
 }
-/*
-h1{
-  position: absolute;
-  transform: translateZ(-1px) scale(2);
-}
-*/
 
 .scroll-divs{
   min-height: 100vh;
@@ -49,7 +43,7 @@ h1{
   content: "";
   position: absolute;
   top: 0;right: 0;bottom: 0;left: 0;
-  transform: translateZ(-1px) scale(1.5);
+  transform: translateZ(-1px) scale(1.8);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -60,9 +54,14 @@ h1{
 }
 .rooms{
   background-image: url("rooms.jpg");
+  background-size: contain;
 }
 .cafe{
   background-image: url("cafe.JPG");
+}
+.bar{
+  background-image: url("bar.JPG");
+  background-size: contain;
 }
 
 .nav-header::after {

@@ -15,9 +15,9 @@ a {
 }
 
 a:hover{
-    font-weight: normal;
+    font-size:larger;
     border-radius: 3%;
     border-bottom-style: outset;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
 }

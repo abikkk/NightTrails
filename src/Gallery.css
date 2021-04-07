@@ -6,4 +6,7 @@
     font-size: 4vh;
     color: white;
     height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
